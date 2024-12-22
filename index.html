@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Nisa Amelia</title>
+    <link href="src/output.css" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- Header Start -->
+    <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
+        <div class="container">
+            <div class="flex items-center justify-between relative">
+                <div class="px-4">
+                    <a href="#home" class="font-bold text-lg text-primary block py-6">nisaamelia</a>
+                </div>
+                <div class="flex items-center px-4">
+                    <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
+                        <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
+                        <span class="hamburger-line transition duration-300 ease-in-out"></span>
+                        <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
+                    </button>
+
+                    <nav id="nav-menu"
+                        class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+                        <ul class="block lg:flex">
+                            <li class="group">
+                                <a href="#home"
+                                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Beranda</a>
+                            </li>
+                            <li class="group">
+                                <a href="#about"
+                                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">About</a>
+                            </li>
+                            <li class="group">
+                                <a href="#portfolio"
+                                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Portfolio</a>
+                            </li>
+                            <li class="group">
+                                <a href="#tech"
+                                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Tech</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header End -->
+
+    <!-- Hero Section Start -->
+    <section id="home" class="pt-36">
+        <div class="container">
+            <div class="flex flex-wrap">
+                <div class="w-full self-center px-4 lg:w-1/2">
+                    <h1 class="text-base font-semibold text-primary">Hi everyone 👋, I am <span
+                            class="block font-bold text-dark text-4xl mt-1">Nisa Amelia</span></h1>
+                    <h2 class="font-medium text-slate-500 text-lg mb-5 lg:text-2xl">GIS Student</h2>
+                    <p class="font-medium text-slate-400 mb-10 leading-relaxed">GIS Data Analyst | Web-GIS Enthusiast |
+                        UI/UX Design Learner</p>
+                    <a href="mailto:nisaamelia952@gmail.com"
+                        class="text-base font-semibold text-white bg-primary py-3 px-8 rounded-full hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out">Kontak
+                        Saya</a>
+                </div>
+                <div class="w-full self-end px-4 lg:w-1/2">
+                    <div class="relative mt-10 lg:mt-9 lg:right-0">
+                        <img src="src/img/profile-4.jpg" alt="Nisa Amelia" class="max-w-full mx-auto"
+                            style="width: 400px; height: auto;" />
+                        <!-- <span class="absolute bottom-0 -z-10 left-1/2 -translate-x-1">
+                            <svg width="400" height="400" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill="#991B1B" d="M41,-53.6C50.9,-49.2,55.2,-34.3,60.2,-19.5C65.1,-4.6,70.7,10.1,67.4,22.4C64,34.6,51.8,44.5,39.1,47.3C26.3,50.1,13.2,45.9,1.7,43.5C-9.7,41.1,-19.4,40.6,-30,37.1C-40.7,33.6,-52.2,27.2,-56.2,17.6C-60.1,8.1,-56.4,-4.5,-51.5,-15.8C-46.6,-27.2,-40.5,-37.2,-31.7,-42C-22.9,-46.9,-11.5,-46.4,2,-49.2C15.5,-52,31.1,-58.1,41,-53.6Z" transform="translate(100 100) scale(1.1)" />
+                              </svg>
+                        </span> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- About Section Start -->
+    <section id="about" class="pt-36 pb-32">
+        <div class="container">
+            <div class="flex flex-wrap">
+                <div class="w-full px-4 mb-10 lg:w-1/2">
+                    <h4 class="font-bold uppercase text-primary text-lg mb-3">About Me</h4>
+                    <h2 class="font-bold text-dark text-3xl mb-5 max-w-md lg:text-4xl">Let's know more about me!</h2>
+                    <p class="font-medium text-base text-secondary max-w-xl lg:text-lg">I’m a final-year undergraduate
+                        student majoring in Geographic Information Systems (GIS), with a strong passion for processing
+                        and analyzing geospatial data. I’m also interested in programming, particularly in web-GIS and
+                        mobile development, and i'm currently expanding my skills in these areas.</p>
+                </div>
+                <div class="w-full px-4 lg:w-1/2">
+                    <h3 class="font-semibold text-dark text-2xl mb-4 lg:text-3xl lg:pt-10">Let's Connect</h3>
+                    <p class="font-medium text-base text-secondary mb-6 lg:text-lg">If u have same interest with me, i
+                        am open with the discussion and let's connect with me 🙋‍♀️</p>
+                    <div class="flex items-center">
+                        <!-- GitHub -->
+                        <a href="https://github.com/nisamelia" target="_blank"
+                            class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-primary hover:bg-primary hover:text-white">
+                            <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <title>GitHub</title>
+                                <path
+                                    d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
+                            </svg>
+                        </a>
+
+                        <!-- LinkedIn -->
+                        <a href="https://www.linkedin.com/in/nisa-amelia31" target="_blank"
+                            class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-primary hover:bg-primary hover:text-white">
+                            <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <title>LinkedIn</title>
+                                <path
+                                    d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+                            </svg>
+                        </a>
+
+                        <!-- Email -->
+                        <a href="mailto:nisaamelia952@gmail.com" target="_blank"
+                            class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-primary hover:bg-primary hover:text-white">
+                            <svg role="img" width="20" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <title>Gmail</title>
+                                <path
+                                    d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Section End -->
+
+    <!-- Portfolio Section Start -->
+    <section id="portfolio" class="pt-36 pb-16 bg-slate-100">
+        <div class="container">
+            <div class="w-full px-4">
+                <div class="max-w-xl mx-auto text-center mb-16">
+                    <h4 class="font-semibold text-lg text-primary mb-2">Portfolio</h4>
+                    <h2 class="font-bold text-dark text-3xl mb-4 sm:text-4xl lg:text-5xl">Projects</h2>
+                    <p class="font-medium text-md text-secondary md:text-lg">Click the icon to see more about the
+                        project</p>
+                </div>
+            </div>
+            <div class="w-full px-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto">
+                <div class="mb-12 p-4 md:w-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden">
+                        <img src="src/img/project/svm_boruta.jpg" alt="Land Use Mapping using SVM Algorithm"
+                            width="w-full">
+                    </div>
+                    <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Rice Field Mapping</h3>
+                    <p class="font-medium text-base text-secondary">R Studio - Rice field mapping using machine learning
+                        (SVM Algorithm)</p>
+                </div>
+                <div class="mb-12 p-4 md:w-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden">
+                        <img src="src/img/project/tableau.png" alt="Covid-19 Cases Tableau" width="w-full">
+                    </div>
+                    <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Covid-19 Cases Dashboard</h3>
+                    <p class="font-medium text-base text-secondary">Tableau Public - Dashboard of Covid-19 cases,
+                        integrated with spatial data</p>
+                    <!-- GitHub -->
+                    <a href="https://public.tableau.com/views/PraktikumVDS-NisaAmelia-21483034SV20055-B-PetaCovid-19Terkonfirmasi/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"
+                        target="_blank"
+                        class="w-9 h-9 mr-3 mt-2 rounded-full flex justify-center items-center border border-slate-300 hover:border-primary hover:bg-primary hover:text-white">
+                        <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <title>Tableau</title>
+                            <path
+                                d="M11.654.174V2.377H9.682v.58h1.972V5.16h.696V2.957h1.97v-.58h-1.97V.174h-.348zm6.03 2.262l-.002 1.623v1.623h-2.957v.927h2.957v3.188H18.725l.011-1.582.02-1.576 1.465-.02 1.46-.01v-.927H18.728V2.436h-.522zm-12.407.06V5.686H2.291v.925H5.277V9.801h.985V6.61h3.013v-.925H6.262V2.496H5.77zm6.086 5.27v3.593H8.06v1.188h3.304v3.596h1.28v-3.596H15.953v-1.188H12.643V7.766h-.637zm9.721 1.55v2.221h-2.012v.811h2.012v2.261h.887v-2.261H24v-.811h-2.029V9.317h-.422zm-19.111.131V11.621H0v.621H1.973v2.194H2.64v-2.194h2v-.62H2.609V9.446h-.318zm15.709 4.516v3.254h-3.016v.927h3.016v3.217h1.072v-3.216H21.74v-.928H18.754v-3.254h-.533zm-12.463.008v3.246H2.262v.928h2.957v3.189H6.32v-3.189h2.955v-.928H6.32V13.97h-.55zm6.316 4.578l.002 1.103v1.1H9.566v.812h1.971v2.262h.928l.012-1.119.017-1.143H14.463v-.812h-2V18.549h-.465z" />
+                        </svg>
+                    </a>
+                </div>
+                <div class="mb-12 p-4 md:w-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden">
+                        <img src="src/img/project/archaeo-site.png" alt="Archaeo-Site App" width="w-full">
+                    </div>
+                    <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Archaeo-Site (Mobile App)</h3>
+                    <p class="font-medium text-base text-secondary">Hybrid app - React Native, Leaflet JS, Bootstrap
+                        <br> This app was created to deliver the distribution of archaeological sites in the Yogyakarta
+                        Special Region.</p>
+                    <!-- GitHub -->
+                    <a href="https://github.com/nisamelia/archaeo-sites-3" target="_blank"
+                        class="w-9 h-9 mr-3 mt-2 rounded-full flex justify-center items-center border border-slate-300 hover:border-primary hover:bg-primary hover:text-white">
+                        <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <title>GitHub</title>
+                            <path
+                                d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
+                        </svg>
+                    </a>
+                </div>
+                <div class="mb-12 p-4 md:w-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden">
+                        <img src="src/img/project/Cover_Gesturo.jpg" alt="Gesturo App" width="w-full">
+                    </div>
+                    <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Gesturo App (Android App)</h3>
+                    <p class="font-medium text-base text-secondary">Kotlin, Figma, Android Studio <br>Sign language
+                        learning app integrated with machine learning. Created collaboratively as a capstone project.
+                    </p>
+                    <!-- GitHub -->
+                    <a href="https://github.com/gesturo-team/Mobile-Development" target="_blank"
+                        class="w-9 h-9 mr-3 mt-2 rounded-full flex justify-center items-center border border-slate-300 hover:border-primary hover:bg-primary hover:text-white">
+                        <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <title>GitHub</title>
+                            <path
+                                d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
+                        </svg>
+                    </a>
+                </div>
+
+                <div class="mb-12 p-4 md:w-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden">
+                        <img src="src/img/project/makmur.png" alt="WebGIS Rumah Makan Jawa Timur" width="w-full">
+                    </div>
+                    <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Makmur (WebGIS)</h3>
+                    <p class="font-medium text-base text-secondary">CodeIgniter, PostgreSQL - WebGIS for Restaurant
+                        Distribution in East Java</p>
+                    <!-- GitHub -->
+                    <a href="https://github.com/nisamelia/RM-Jawa-Timur" target="_blank"
+                        class="w-9 h-9 mr-3 mt-2 rounded-full flex justify-center items-center border border-slate-300 hover:border-primary hover:bg-primary hover:text-white">
+                        <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <title>GitHub</title>
+                            <path
+                                d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
+                        </svg>
+                    </a>
+                </div>
+                <div class="mb-12 p-4 md:w-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden">
+                        <img src="src/img/project/story-maps.png" alt="Ngaliyan Gunung A (StoryMaps)" width="w-full">
+                    </div>
+                    <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Ngaliyan Gunung A (Story Maps)</h3>
+                    <p class="font-medium text-base text-secondary">ArcGIS Online, Story Maps - This story map presents
+                        information about Dusun Ngaliyan Gunung A, created collaboratively as one of the Field Work
+                        Practice projects.</p>
+                    <!-- GitHub -->
+                    <a href="https://storymaps.arcgis.com/stories/c9151747978d442187cf5ec773a6fb47" target="_blank"
+                        class="w-9 h-9 mr-3 mt-2 rounded-full flex justify-center items-center border border-slate-300 hover:border-primary hover:bg-primary hover:text-white">
+                        <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <title>ArcGIS</title>
+                            <path
+                                d="M12 0a.84923.84923 0 0 0-.33766.07031l-8.5183 3.69444C2.1458 4.19776 1.4997 5.1816 1.4997 6.2697v13.2521l10.16264 4.40783c.21517.09333.46015.09407.67532.00073l8.5183-3.6959c.99824-.43301 1.64434-1.41685 1.64434-2.50495V4.47814L12.33766.06958C12.23007.02291 12.11516-.00005 12 0Zm0 4.83705c4.16294 0 7.53757 3.3746 7.53757 7.53757S16.163 19.91218 12 19.91218c-4.163 0-7.53757-3.37462-7.53757-7.53756S7.837 4.83705 12 4.83705zm-.3501 1.38871c-.89685-.02267-2.32742.2409-3.74645 1.6143.34958.55454.64544.97782.49 1.41801-.23127.65503-.5139.51378-1.07083.99466-.39567.34169.2067 1.01292-.31275 1.30595-.51945.29306-1.21315.6636-.94925 1.17557.2639.51196 1.4691.83013 1.95929 1.07522.49018.2451.92812.70605.6072 1.2371-.31403.51948-.53713 1.13083-.60134 1.60917 1.0549.94423 2.44706 1.51909 3.97423 1.51909 3.2928 0 5.81772-2.71048 5.96208-6.00017.04062-.92531-.93924-.93972-1.53447-.93972 0 0 .34061.92356.01831 1.43632-.3223.51278-.84968.76166-.83498 1.37699.01464.61533-.93743 1.5967-1.2598 1.9483-.32223.35163-.9228.74718-1.12796-.0586-.2051-.80579-.12596-1.47799.1084-2.04938.23442-.57136-.2174-.74707-.92068-.76174-.7032-.01463-1.0798-.10795-1.18656-1.19315-.08787-.89369 1.2429-1.84356 1.81426-1.84356.33406 0 1.45485.21963 1.50737-.34058.08056-.8593-.8204-1.04164-1.03934-1.60185C13.2877 7.58747 14.98596 6.60707 12 6.24993c-.10475-.01253-.22199-.02093-.3501-.02417z" />
+                        </svg>
+                    </a>
+                </div>
+                <div class="mb-12 p-4 md:w-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden">
+                        <img src="src/img/project/habitat-bentik.jpg" alt="Habitat Bentik (GEE)" width="w-full">
+                    </div>
+                    <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Benthic Habitat Map</h3>
+                    <p class="font-medium text-base text-secondary">Google Earth Engine</p>
+                    <!-- GitHub -->
+                    <a href="https://code.earthengine.google.com/15ed40afd349e0c05778f6fd914e58f7" target="_blank"
+                        class="w-9 h-9 mr-3 mt-2 rounded-full flex justify-center items-center border border-slate-300 hover:border-primary hover:bg-primary hover:text-white">
+                        <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <title>Google Earth Engine</title>
+                            <path
+                                d="M7.853.717a1.19 1.19 0 00-.65.17L4.53 2.49c-.53.317-.732.984-.467 1.543l.93 1.958a9.217 9.217 0 00-1.745 3.076l-2.124.135A1.198 1.198 0 000 10.399v3.116a1.2 1.2 0 001.084 1.194l2.171.21a9.207 9.207 0 001.748 3.066l-.941 1.982a1.198 1.198 0 00.467 1.543l2.673 1.603a1.2 1.2 0 001.605-.347l1.22-1.771a9.22 9.22 0 001.971.216c.032 0 .064-.004.096-.004a9.245 9.245 0 001.876-.212l1.22 1.77a1.2 1.2 0 001.606.348l2.673-1.603c.53-.317.732-.984.467-1.543l-.941-1.982c.022-.025.048-.049.07-.076.066-.077.125-.159.188-.238a9.225 9.225 0 001.484-2.736l2.138-.137A1.198 1.198 0 0024 13.601v-3.116a1.2 1.2 0 00-1.084-1.194V9.29l-2.16-.21a9.182 9.182 0 00-1.501-2.786c-.063-.08-.124-.16-.19-.238-.018-.022-.039-.043-.058-.065l.93-1.958a1.198 1.198 0 00-.467-1.543L16.797.887a1.2 1.2 0 00-1.605.347L13.99 2.976a9.169 9.169 0 00-1.896-.219c-.033 0-.064-.004-.096-.004a9.2 9.2 0 00-1.992.223L8.808 1.234a1.2 1.2 0 00-.955-.517zm4.148 3.882c.574 0 1.13.072 1.668.197a7.41 7.41 0 015.384 4.993 7.36 7.36 0 01.332 2.193c0 .764-.116 1.5-.332 2.193a7.407 7.407 0 01-5.384 4.992 7.393 7.393 0 01-1.668.199c-4.071 0-7.384-3.313-7.384-7.384 0-4.07 3.313-7.383 7.384-7.383zM11.907 6C9.558 6 8.429 7.207 8.429 7.207c3.501-1.577 5.23 2.986 6.702 4.386 1.472 1.4 2.887.203 2.887.203-.012-.787-.252-1.533-.252-1.533-.968.168-1.398-.494-1.97-1.252C15.224 8.253 13.561 6 11.907 6zm-3.84 3.228c-.705.015-1.3.35-1.653 1-.868 1.601-.096 3.64-.096 3.64s.3-1.532 1.537-1.309c1.238.224 1.754 1.208 2.504 1.985.75.776 1.895 2.064 3.978 2.064 2.082 0 3.018-1.516 3.435-2.937v-.002l-.053.04c-1.265.98-3.335.882-4.548-.275-.89-.846-1.403-1.908-2.135-2.68-.981-1.038-2.065-1.545-2.97-1.526z" />
+                        </svg>
+                    </a>
+                </div>
+                <div class="mb-12 p-4 md:w-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden">
+                        <img src="src/img/project/ML2.jpg" alt="Mangrove Supervised Classification" width="w-full">
+                    </div>
+                    <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Mangrove Ecosystem Map</h3>
+                    <p class="font-medium text-base text-secondary">ENVI - Used supervised classification to identify
+                        mangrove area</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Portfolio Section End -->
+
+    <!-- Tech Section Start-->
+    <section id="tech" class="pt-36 pb-32 bg-slate-400">
+        <div class="container">
+            <div class="w-full px-4">
+                <div class="mx-auto text-center mb-16">
+                    <h4 class="font-semibold text-lg text-primary">Tech I Use</h4>
+                    <h2 class="font-boldtext-3xl mb-4 sm:text-4xl lg:text-5xl text-white">Programming Language and
+                        Software</h2>
+                    <p class="font-medium text-md text-secondary md:text-lg text-white">Here are some tools that I've used and
+                        learned</p>
+                </div>
+            </div>
+            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6 px-2">
+                <!-- Card JS-->
+                <div class="bg-slate-600 rounded-3xl p-8">
+                    <a href="#"
+                        class="max-w-[100px] grayscale opacity-60 transition duration-100 hover:grayscale-0 hover:opacity-100">
+                        <img src="src/img/logo-javascript.svg" alt="JavaScript" class="mx-auto h-12 mb-4">
+                        <h3 class="text-center text-base font-medium text-white">JavaScript</h3>
+                    </a>
+                </div>
+                <!-- Card Python-->
+                <div class="bg-slate-600 rounded-3xl shadow-lg p-8">
+                    <a href="#"
+                        class="max-w-[100px] grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100">
+                        <img src="src/img/python-5.svg" alt="Python" class="mx-auto h-12 mb-4">
+                        <h3 class="text-center text-base font-medium text-white">Python</h3>
+                    </a>
+                </div>
+                <!-- Card VS Code-->
+                <div class="bg-slate-600 rounded-3xl shadow-lg p-8">
+                    <a href="#"
+                        class="max-w-[100px] grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100">
+                        <img src="src/img/visual-studio-code-1-1.svg" alt="VS Code" class="mx-auto h-12 mb-4">
+                        <h3 class="text-center text-base font-medium text-white">VS Code</h3>
+                    </a>
+                </div>
+                <!-- Card Tableau-->
+                <div class="bg-slate-600 rounded-3xl shadow-lg p-8">
+                    <a href="#"
+                        class="max-w-[100px] grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100">
+                        <img src="src/img/tableau-software.svg" alt="VS Code" class="mx-auto h-12 mb-4">
+                        <h3 class="text-center text-base font-medium text-white">Tableau</h3>
+                    </a>
+                </div>
+                <!-- Card Kotlin-->
+                <div class="bg-slate-600 rounded-3xl shadow-lg p-8">
+                    <a href="#"
+                        class="max-w-[100px] grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100">
+                        <img src="src/img/kotlin-1.svg" alt="VS Code" class="mx-auto h-12 mb-4">
+                        <h3 class="text-center text-base font-medium text-white">Kotlin</h3>
+                    </a>
+                </div>
+                <!-- Card Figma-->
+                <div class="bg-slate-600 rounded-3xl shadow-lg p-8">
+                    <a href="#"
+                        class="max-w-[100px] grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100">
+                        <img src="src/img/figma-icon.svg" alt="VS Code" class="mx-auto h-12 mb-4">
+                        <h3 class="text-center text-base font-medium text-white">Figma</h3>
+                    </a>
+                </div>
+                <!-- Card Leaflet-->
+                <div class="bg-slate-600 rounded-3xl shadow-lg p-8">
+                    <a href="#"
+                        class="max-w-[100px] grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100">
+                        <img src="src/img/leaflet-1.svg" alt="Leaflet JS" class="mx-auto h-12 mb-4">
+                        <h3 class="text-center text-base font-medium text-white">Leaflet JS</h3>
+                    </a>
+                </div>
+                <!-- Card Esri-->
+                <div class="bg-slate-600 rounded-3xl shadow-lg p-8">
+                    <a href="#"
+                        class="max-w-[100px] grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100">
+                        <img src="src/img/esri-3.svg" alt="ArcGIS" class="mx-auto h-12 mb-4">
+                        <h3 class="text-center text-base font-medium text-white">ArcGIS</h3>
+                    </a>
+                </div>
+                <!-- Card Postgre SQL-->
+                <div class="bg-slate-600 rounded-3xl shadow-lg p-8">
+                    <a href="#"
+                        class="max-w-[100px] grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100">
+                        <img src="src/img/postgresql.svg" alt="Postgre SQL" class="mx-auto h-12 mb-4">
+                        <h3 class="text-center text-base font-medium text-white">Postgre SQL</h3>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Tech Section End -->
+
+    <!-- Footer Start -->
+     <footer class="bg-dark pt-24 pb-12">
+        <div class="container">
+            <div class="flex flex-wrap">
+                <div class="w-full px-4 mb-12 text-slate-300 font-medium">
+                    <h2 class="font-bold text-4xl text-white mb-5">Nisa Amelia</h2>
+                    <p>Yogyakarta</p>
+                    <p>© 2024</p>
+                </div>
+            </div>
+        </div>
+     </footer>
+     <!-- Footer End -->
+
+    <script src="src/js/script.js"></script>
+</body>
+
+</html>
